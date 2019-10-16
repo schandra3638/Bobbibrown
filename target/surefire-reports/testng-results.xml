@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="BDD Test Suite" duration-ms="50516" started-at="2019-10-04T11:10:02Z" finished-at="2019-10-04T11:10:52Z">
+  <suite name="BDD Test Suite" duration-ms="21962" started-at="2019-10-16T07:29:48Z" finished-at="2019-10-16T07:30:10Z">
     <groups>
     </groups>
-    <test name="Regression Test" duration-ms="50516" started-at="2019-10-04T11:10:02Z" finished-at="2019-10-04T11:10:52Z">
+    <test name="Regression Test" duration-ms="21962" started-at="2019-10-16T07:29:48Z" finished-at="2019-10-16T07:30:10Z">
       <class name="com.bobbibrown.testrunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.bobbibrown.testrunner.TestRunner@735b478]" name="setUpClass" is-config="true" duration-ms="238" started-at="2019-10-04T11:10:02Z" finished-at="2019-10-04T11:10:02Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.bobbibrown.testrunner.TestRunner@234bef66]" name="setUpClass" is-config="true" duration-ms="140" started-at="2019-10-16T07:29:48Z" finished-at="2019-10-16T07:29:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bobbibrown.testrunner.TestRunner@735b478]" name="scenario" duration-ms="46659" started-at="2019-10-04T11:10:02Z" data-provider="features" finished-at="2019-10-04T11:10:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Create New User Account"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["My Account"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario -->
-        <test-method status="FAIL" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bobbibrown.testrunner.TestRunner@735b478]" name="scenario" duration-ms="49815" started-at="2019-10-04T11:10:02Z" data-provider="features" finished-at="2019-10-04T11:10:52Z">
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bobbibrown.testrunner.TestRunner@234bef66]" name="scenario" duration-ms="21533" started-at="2019-10-16T07:29:48Z" data-provider="features" finished-at="2019-10-16T07:30:10Z">
           <params>
             <param index="0">
               <value>
@@ -40,47 +24,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[invalid session id
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'SSSPLHDC0000494', ip: '10.50.25.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\CSS114~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54736}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c617dc23c6ca06843092109c889d6a27]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'SSSPLHDC0000494', ip: '10.50.25.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\CSS114~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54736}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c617dc23c6ca06843092109c889d6a27
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
-at com.bobbibrown.listeners.ExtentReportListener.captureScreenShot(ExtentReportListener.java:74)
-at com.bobbibrown.listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:56)
-at com.bobbibrown.webutilites.Verifications.verifyTitileOfPage(Verifications.java:60)
-at com.bobbibrown.pages.AccountLandingPage.verifyTitileOfAccountLandingPage(AccountLandingPage.java:28)
-at com.bobbibrown.stepdefinitions.AccountLandingPageStepDefinition.verify_whether_user_is_on_Account_landing_page(AccountLandingPageStepDefinition.java:21)
-at ✽.Verify whether user is on Account landing page(file:src/test/resources/com/bobbibrown/features/Account.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.bobbibrown.testrunner.TestRunner@735b478]" name="testDownClass" is-config="true" duration-ms="131" started-at="2019-10-04T11:10:52Z" finished-at="2019-10-04T11:10:52Z">
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.bobbibrown.testrunner.TestRunner@234bef66]" name="testDownClass" is-config="true" duration-ms="37" started-at="2019-10-16T07:30:10Z" finished-at="2019-10-16T07:30:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDownClass -->

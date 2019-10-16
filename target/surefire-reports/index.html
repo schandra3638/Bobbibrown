@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-BDD_Test_Suite">
-              <span class="suite-name border-failed">BDD Test Suite</span>
+              <span class="suite-name border-passed">BDD Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-BDD_Test_Suite" class="hide-methods failed suite-BDD_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-BDD_Test_Suite -->
-                      <a href="#" panel-name="suite-BDD_Test_Suite" class="show-methods failed suite-BDD_Test_Suite"> (show)</a> <!-- show-methods failed suite-BDD_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-BDD_Test_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-BDD_Test_Suite" title="com.bobbibrown.testrunner.TestRunner" hash-for-method="scenario(&quot;Return User Sign-in&quot;, &quot;My Account&quot;)">scenario("Return User Sign-in", "My Account")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-BDD_Test_Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,7 +102,7 @@
                     <div class="method-list-content passed suite-BDD_Test_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-BDD_Test_Suite" title="com.bobbibrown.testrunner.TestRunner" hash-for-method="scenario(&quot;Create New User Account&quot;, &quot;My Account&quot;)">scenario("Create New User Account", "My Account")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-BDD_Test_Suite" title="com.bobbibrown.testrunner.TestRunner" hash-for-method="scenario(&quot;Return User Sign-in&quot;, &quot;My Account&quot;)">scenario("Return User Sign-in", "My Account")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-BDD_Test_Suite -->
@@ -131,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-BDD_Test_Suite" class="panel BDD_Test_Suite">
-          <div class="suite-BDD_Test_Suite-class-failed">
+          <div class="suite-BDD_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.bobbibrown.testrunner.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -143,44 +129,6 @@
                   </a> <!-- scenario("Return User Sign-in", "My Account") -->
                   <span class="method-name">scenario</span>
                   <span class="parameters">("Return User Sign-in", "My Account")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;SSSPLHDC0000494&apos;, ip: &apos;10.50.25.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\CSS114~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54736}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c617dc23c6ca06843092109c889d6a27
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
-	at com.bobbibrown.listeners.ExtentReportListener.captureScreenShot(ExtentReportListener.java:74)
-	at com.bobbibrown.listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:56)
-	at com.bobbibrown.webutilites.Verifications.verifyTitileOfPage(Verifications.java:60)
-	at com.bobbibrown.pages.AccountLandingPage.verifyTitileOfAccountLandingPage(AccountLandingPage.java:28)
-	at com.bobbibrown.stepdefinitions.AccountLandingPageStepDefinition.verify_whether_user_is_on_Account_landing_page(AccountLandingPageStepDefinition.java:21)
-	at ✽.Verify whether user is on Account landing page(file:src/test/resources/com/bobbibrown/features/Account.feature:8)
-... Removed 4 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-BDD_Test_Suite-class-failed -->
-          <div class="suite-BDD_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.bobbibrown.testrunner.TestRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="scenario(&quot;Create New User Account&quot;, &quot;My Account&quot;)">
-                  </a> <!-- scenario("Create New User Account", "My Account") -->
-                  <span class="method-name">scenario</span>
-                  <span class="parameters">("Create New User Account", "My Account")</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,7 +142,7 @@ Session ID: c617dc23c6ca06843092109c889d6a27
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;BDD Test Suite&quot; data-provider-thread-count=&quot;3&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;BDD Test Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.bobbibrown.listeners.EventListener&quot;/&gt;
   &lt;/listeners&gt;
@@ -240,20 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'scenario')
 data.setCell(0, 2, 'com.bobbibrown.testrunner.TestRunner')
-data.setCell(0, 3, 49815);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'scenario')
-data.setCell(1, 2, 'com.bobbibrown.testrunner.TestRunner')
-data.setCell(1, 3, 46659);
+data.setCell(0, 3, 21533);
 window.suiteTableData['BDD_Test_Suite']= { tableData: data, tableDiv: 'times-div-BDD_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-BDD_Test_Suite">
               </div> <!-- times-div-BDD_Test_Suite -->
             </div> <!-- times-div -->
@@ -285,18 +229,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">scenario("Create New User Account", "My Account")</span>
-                <span class="method-start">269 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">scenario("Return User Sign-in", "My Account")</span>
-                <span class="method-start">269 ms</span>
+                <span class="method-start">175 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">testDownClass</span>
-                <span class="method-start">50114 ms</span>
+                <span class="method-start">21709 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

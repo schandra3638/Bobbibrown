@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-10-04T11:19:28.160Z",
+        "start_timestamp": "2019-10-16T07:29:48.949Z",
         "before": [
           {
             "result": {
-              "duration": 19798415729,
+              "duration": 12795823221,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2736403714,
+              "duration": 2427076899,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5268930149,
+              "duration": 1565969481,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1198729265,
+              "duration": 893592722,
               "status": "passed"
             },
             "line": 5,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 1670028437,
+              "duration": 616254379,
               "status": "passed"
             },
             "line": 6,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 4034372883,
+              "duration": 2457870980,
               "status": "passed"
             },
             "line": 7,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 6416839951,
+              "duration": 622813791,
               "status": "passed"
             },
             "line": 8,
@@ -107,127 +107,10 @@
           },
           {
             "result": {
-              "duration": 32197,
+              "duration": 28270,
               "status": "passed"
             },
             "line": 9,
-            "name": "Click on Sign-out link",
-            "match": {
-              "location": "AccountLandingPageStepDefinition.click_on_Sign_out_link()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-10-04T11:19:28.160Z",
-        "before": [
-          {
-            "result": {
-              "duration": 25088054157,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ServiceHooks.launchApplication()"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "Create New User Account",
-        "description": "",
-        "id": "my-account;create-new-user-account",
-        "after": [
-          {
-            "result": {
-              "duration": 2563632042,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ServiceHooks.closeApplication()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2397557736,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User is on Sign-in Page",
-            "match": {
-              "location": "AccountSignInPageStepDefinition.user_is_on_Sign_in_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 931952345,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Enter username \"csstester114@gmail.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "csstester114@gmail.com",
-                  "offset": 16
-                }
-              ],
-              "location": "AccountSignInPageStepDefinition.enter_username(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 620501541,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Enter Password \"Tester@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Tester@123",
-                  "offset": 16
-                }
-              ],
-              "location": "AccountSignInPageStepDefinition.enter_Password(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8983318884,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Click on Sign-in button",
-            "match": {
-              "location": "AccountSignInPageStepDefinition.click_on_Sign_in_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 788371514,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Verify whether user is on Account landing page",
-            "match": {
-              "location": "AccountLandingPageStepDefinition.verify_whether_user_is_on_Account_landing_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 30102,
-              "status": "passed"
-            },
-            "line": 17,
             "name": "Click on Sign-out link",
             "match": {
               "location": "AccountLandingPageStepDefinition.click_on_Sign_out_link()"

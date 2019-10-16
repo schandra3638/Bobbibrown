@@ -10,7 +10,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="testDownClass"/>
-          <include name="scenario" invocation-numbers="0"/>
+          <include name="scenario" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.bobbibrown.testrunner.TestRunner -->
     </classes>

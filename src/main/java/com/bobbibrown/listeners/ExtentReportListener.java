@@ -28,7 +28,7 @@ public class ExtentReportListener {
 	
 	
 	public static ExtentReports setUp() {
-		String reportLocation = "./Results/ExtentReport/Extent_Report"+getcurrentdateandtime()+".html";
+		String reportLocation = "./Results/ExtentReport/Extent_Report.html";
 		report = new ExtentHtmlReporter(reportLocation);
 		report.config().setDocumentTitle("Bobbi Brown Test Automation Report");
 		report.config().setReportName("Bobbi Brown Regression");

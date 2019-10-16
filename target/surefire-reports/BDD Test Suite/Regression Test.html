@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Regression Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 04 16:40:02 IST 2019</td>
+<td>Started on:</td><td>Wed Oct 16 12:59:48 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>50 seconds (50516 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21962 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,64 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.bobbibrown.testrunner.TestRunner.scenario()'><b>scenario</b><br>Test class: com.bobbibrown.testrunner.TestRunner<br>Parameters: "Return User Sign-in", "My Account"</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;SSSPLHDC0000494&apos;, ip: &apos;10.50.25.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\CSS114~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54736}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c617dc23c6ca06843092109c889d6a27
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
-	at com.bobbibrown.listeners.ExtentReportListener.captureScreenShot(ExtentReportListener.java:74)
-	at com.bobbibrown.listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:56)
-	at com.bobbibrown.webutilites.Verifications.verifyTitileOfPage(Verifications.java:60)
-	at com.bobbibrown.pages.AccountLandingPage.verifyTitileOfAccountLandingPage(AccountLandingPage.java:28)
-	at com.bobbibrown.stepdefinitions.AccountLandingPageStepDefinition.verify_whether_user_is_on_Account_landing_page(AccountLandingPageStepDefinition.java:21)
-	at ?.Verify whether user is on Account landing page(file:src/test/resources/com/bobbibrown/features/Account.feature:8)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1271154684", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1271154684'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;SSSPLHDC0000494&apos;, ip: &apos;10.50.25.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_192&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\CSS114~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54736}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c617dc23c6ca06843092109c889d6a27
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
-	at com.bobbibrown.listeners.ExtentReportListener.captureScreenShot(ExtentReportListener.java:74)
-	at com.bobbibrown.listeners.ExtentReportListener.testStepHandle(ExtentReportListener.java:56)
-	at com.bobbibrown.webutilites.Verifications.verifyTitileOfPage(Verifications.java:60)
-	at com.bobbibrown.pages.AccountLandingPage.verifyTitileOfAccountLandingPage(AccountLandingPage.java:28)
-	at com.bobbibrown.stepdefinitions.AccountLandingPageStepDefinition.verify_whether_user_is_on_Account_landing_page(AccountLandingPageStepDefinition.java:21)
-	at ?.Verify whether user is on Account landing page(file:src/test/resources/com/bobbibrown/features/Account.feature:8)
-</pre></div></td>
-<td>49</td>
-<td>com.bobbibrown.testrunner.TestRunner@735b478</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -133,10 +75,10 @@ Session ID: c617dc23c6ca06843092109c889d6a27
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.bobbibrown.testrunner.TestRunner.scenario()'><b>scenario</b><br>Test class: com.bobbibrown.testrunner.TestRunner<br>Parameters: "Create New User Account", "My Account"</td>
+<td title='com.bobbibrown.testrunner.TestRunner.scenario()'><b>scenario</b><br>Test class: com.bobbibrown.testrunner.TestRunner<br>Parameters: "Return User Sign-in", "My Account"</td>
 <td></td>
-<td>46</td>
-<td>com.bobbibrown.testrunner.TestRunner@735b478</td></tr>
+<td>21</td>
+<td>com.bobbibrown.testrunner.TestRunner@234bef66</td></tr>
 </table><p>
 </body>
 </html>

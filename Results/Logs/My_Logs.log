@@ -3460,3 +3460,163 @@ freemarker.core.InvalidReferenceException: [... Exception message was already pr
 2019-10-04 16:50:06 [INFO ] [ServiceHooks] - [closeApplication] Closing Service Hook
 2019-10-04 16:50:08 [INFO ] [Browser] - [closeApplication] Closed Application
 2019-10-04 16:50:09 [INFO ] [Browser] - [closeApplication] Closed Application
+2019-10-16 12:48:04 [INFO ] [ServiceHooks] - [launchApplication] Launching Service Hook
+2019-10-16 12:48:04 [INFO ] [ServiceHooks] - [launchApplication] Launching Service Hook
+2019-10-16 12:48:04 [INFO ] [Browser] - [<init>] Set Driver Executable Path
+2019-10-16 12:48:04 [INFO ] [Browser] - [<init>] Set Driver Executable Path
+2019-10-16 12:48:04 [INFO ] [Browser] - [browserSetUp] Launching Chrome Browser
+2019-10-16 12:48:04 [INFO ] [Browser] - [browserSetUp] Launching Chrome Browser
+2019-10-16 12:48:13 [INFO ] [Browser] - [openApplication] Opening site : https://www.bobbibrowncosmetics.com/account/signin.tmpl
+2019-10-16 12:48:14 [INFO ] [Browser] - [openApplication] Opening site : https://www.bobbibrowncosmetics.com/account/signin.tmpl
+2019-10-16 12:48:33 [INFO ] [Browser] - [openApplication] Setting implicitly Wait
+2019-10-16 12:48:33 [INFO ] [Browser] - [openApplication] Setting Page Load Timeout
+2019-10-16 12:48:33 [INFO ] [Browser] - [openApplication] Setting implicitly Wait
+2019-10-16 12:48:33 [INFO ] [Browser] - [openApplication] Setting Page Load Timeout
+2019-10-16 12:48:35 [INFO ] [Verifications] - [<init>] Initializing The Elements of MyAccountSignInPage 
+2019-10-16 12:48:35 [INFO ] [Verifications] - [<init>] Initializing The Elements of MyAccountSignInPage 
+2019-10-16 12:48:35 [INFO ] [Verifications] - [verifyTitleOfAccountSignInPage] Verifying Title Of AccountSignIn Page
+2019-10-16 12:48:35 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:48:35 [INFO ] [Verifications] - [verifyTitleOfAccountSignInPage] Verifying Title Of AccountSignIn Page
+2019-10-16 12:48:35 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:48:43 [INFO ] [WaitForElement] - [waitUntilElementVisible] Waiting Until Element : [[ChromeDriver: chrome on XP (ca8acd9cbf3d88986f43a8d531e23f2e)] -> xpath: //input[@data-test-id='form_signin_email']]Visible
+2019-10-16 12:48:43 [INFO ] [WaitForElement] - [webDriverWait] Setting WebDriverWait :10
+2019-10-16 12:48:43 [INFO ] [WaitForElement] - [waitUntilElementVisible] Waiting Until Element : [[ChromeDriver: chrome on XP (ed0f6353ab376b8017bba3d0b1443e19)] -> xpath: //input[@data-test-id='form_signin_email']]Visible
+2019-10-16 12:48:43 [INFO ] [WaitForElement] - [webDriverWait] Setting WebDriverWait :10
+2019-10-16 12:48:43 [INFO ] [Verifications] - [enterUserName] Enter User Name : csstester114@gmail.com
+2019-10-16 12:48:44 [INFO ] [Verifications] - [enterUserName] Enter User Name : csstester114@gmail.com
+2019-10-16 12:48:46 [INFO ] [Verifications] - [enterPassword] Enter Password : Tester@123
+2019-10-16 12:48:47 [INFO ] [Verifications] - [clickOnSignIn] Click On SignIn Button
+2019-10-16 12:48:47 [INFO ] [Verifications] - [enterPassword] Enter Password : Tester@123
+2019-10-16 12:48:48 [INFO ] [Verifications] - [clickOnSignIn] Click On SignIn Button
+2019-10-16 12:48:51 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:48:51 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:48:51 [INFO ] [AccountLandingPage] - [verifyTitileOfAccountLandingPage] Verifying Titile Of Account Landing Page
+2019-10-16 12:48:51 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:48:52 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:48:52 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:48:52 [INFO ] [AccountLandingPage] - [verifyTitileOfAccountLandingPage] Verifying Titile Of Account Landing Page
+2019-10-16 12:48:52 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:48:53 [INFO ] [ServiceHooks] - [closeApplication] Closing Service Hook
+2019-10-16 12:48:56 [INFO ] [Browser] - [closeApplication] Closed Application
+2019-10-16 12:48:56 [INFO ] [ServiceHooks] - [closeApplication] Closing Service Hook
+2019-10-16 12:48:59 [INFO ] [Browser] - [closeApplication] Closed Application
+2019-10-16 12:49:45 [INFO ] [ServiceHooks] - [launchApplication] Launching Service Hook
+2019-10-16 12:49:45 [INFO ] [Browser] - [<init>] Set Driver Executable Path
+2019-10-16 12:49:45 [INFO ] [Browser] - [browserSetUp] Launching Chrome Browser
+2019-10-16 12:49:50 [INFO ] [Browser] - [openApplication] Opening site : https://www.bobbibrowncosmetics.com/account/signin.tmpl
+2019-10-16 12:50:06 [INFO ] [Browser] - [openApplication] Setting implicitly Wait
+2019-10-16 12:50:06 [INFO ] [Browser] - [openApplication] Setting Page Load Timeout
+2019-10-16 12:50:06 [INFO ] [Verifications] - [<init>] Initializing The Elements of MyAccountSignInPage 
+2019-10-16 12:50:06 [INFO ] [Verifications] - [verifyTitleOfAccountSignInPage] Verifying Title Of AccountSignIn Page
+2019-10-16 12:50:06 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:50:08 [INFO ] [WaitForElement] - [waitUntilElementVisible] Waiting Until Element : [[ChromeDriver: chrome on XP (0cf4ab0be6fadd4039e0701344ec322a)] -> xpath: //input[@data-test-id='form_signin_email']]Visible
+2019-10-16 12:50:08 [INFO ] [WaitForElement] - [webDriverWait] Setting WebDriverWait :10
+2019-10-16 12:50:08 [INFO ] [Verifications] - [enterUserName] Enter User Name : csstester114@gmail.com
+2019-10-16 12:50:09 [INFO ] [Verifications] - [enterPassword] Enter Password : Tester@123
+2019-10-16 12:50:10 [INFO ] [Verifications] - [clickOnSignIn] Click On SignIn Button
+2019-10-16 12:50:14 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:50:14 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:50:14 [INFO ] [AccountLandingPage] - [verifyTitileOfAccountLandingPage] Verifying Titile Of Account Landing Page
+2019-10-16 12:50:14 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:50:14 [INFO ] [ServiceHooks] - [closeApplication] Closing Service Hook
+2019-10-16 12:50:15 [INFO ] [Browser] - [closeApplication] Closed Application
+2019-10-16 12:50:15 [INFO ] [ServiceHooks] - [launchApplication] Launching Service Hook
+2019-10-16 12:50:15 [INFO ] [Browser] - [<init>] Set Driver Executable Path
+2019-10-16 12:50:15 [INFO ] [Browser] - [browserSetUp] Launching Chrome Browser
+2019-10-16 12:50:19 [INFO ] [Browser] - [openApplication] Opening site : https://www.bobbibrowncosmetics.com/account/signin.tmpl
+2019-10-16 12:50:29 [INFO ] [Browser] - [openApplication] Setting implicitly Wait
+2019-10-16 12:50:29 [INFO ] [Browser] - [openApplication] Setting Page Load Timeout
+2019-10-16 12:50:29 [INFO ] [Verifications] - [<init>] Initializing The Elements of MyAccountSignInPage 
+2019-10-16 12:50:29 [INFO ] [Verifications] - [verifyTitleOfAccountSignInPage] Verifying Title Of AccountSignIn Page
+2019-10-16 12:50:29 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:50:31 [INFO ] [WaitForElement] - [waitUntilElementVisible] Waiting Until Element : [[ChromeDriver: chrome on XP (d51aee291b8deb44b77a29839e2a3f53)] -> xpath: //input[@data-test-id='form_signin_email']]Visible
+2019-10-16 12:50:31 [INFO ] [WaitForElement] - [webDriverWait] Setting WebDriverWait :10
+2019-10-16 12:50:31 [INFO ] [Verifications] - [enterUserName] Enter User Name : csstester114@gmail.com
+2019-10-16 12:50:32 [INFO ] [Verifications] - [enterPassword] Enter Password : Tester@123
+2019-10-16 12:50:33 [INFO ] [Verifications] - [clickOnSignIn] Click On SignIn Button
+2019-10-16 12:50:35 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:50:35 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:50:35 [INFO ] [AccountLandingPage] - [verifyTitileOfAccountLandingPage] Verifying Titile Of Account Landing Page
+2019-10-16 12:50:35 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:50:36 [INFO ] [ServiceHooks] - [closeApplication] Closing Service Hook
+2019-10-16 12:50:38 [INFO ] [Browser] - [closeApplication] Closed Application
+2019-10-16 12:54:42 [INFO ] [ServiceHooks] - [launchApplication] Launching Service Hook
+2019-10-16 12:54:42 [INFO ] [Browser] - [<init>] Set Driver Executable Path
+2019-10-16 12:54:42 [INFO ] [Browser] - [browserSetUp] Launching Chrome Browser
+2019-10-16 12:54:47 [INFO ] [Browser] - [openApplication] Opening site : https://www.bobbibrowncosmetics.com/account/signin.tmpl
+2019-10-16 12:55:08 [INFO ] [Browser] - [openApplication] Setting implicitly Wait
+2019-10-16 12:55:08 [INFO ] [Browser] - [openApplication] Setting Page Load Timeout
+2019-10-16 12:55:08 [INFO ] [Verifications] - [<init>] Initializing The Elements of MyAccountSignInPage 
+2019-10-16 12:55:08 [INFO ] [Verifications] - [verifyTitleOfAccountSignInPage] Verifying Title Of AccountSignIn Page
+2019-10-16 12:55:08 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:55:12 [INFO ] [WaitForElement] - [waitUntilElementVisible] Waiting Until Element : [[ChromeDriver: chrome on XP (f93458ede44213261c1cdc586bd1507b)] -> xpath: //input[@data-test-id='form_signin_email']]Visible
+2019-10-16 12:55:12 [INFO ] [WaitForElement] - [webDriverWait] Setting WebDriverWait :10
+2019-10-16 12:55:12 [INFO ] [Verifications] - [enterUserName] Enter User Name : csstester114@gmail.com
+2019-10-16 12:55:14 [INFO ] [Verifications] - [enterPassword] Enter Password : Tester@123
+2019-10-16 12:55:15 [INFO ] [Verifications] - [clickOnSignIn] Click On SignIn Button
+2019-10-16 12:55:18 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:55:18 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:55:18 [INFO ] [AccountLandingPage] - [verifyTitileOfAccountLandingPage] Verifying Titile Of Account Landing Page
+2019-10-16 12:55:18 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:55:18 [INFO ] [ServiceHooks] - [closeApplication] Closing Service Hook
+2019-10-16 12:55:19 [INFO ] [Browser] - [closeApplication] Closed Application
+2019-10-16 12:56:24 [INFO ] [ServiceHooks] - [launchApplication] Launching Service Hook
+2019-10-16 12:56:24 [INFO ] [Browser] - [<init>] Set Driver Executable Path
+2019-10-16 12:56:24 [INFO ] [Browser] - [browserSetUp] Launching Chrome Browser
+2019-10-16 12:56:29 [INFO ] [Browser] - [openApplication] Opening site : https://www.bobbibrowncosmetics.com/account/signin.tmpl
+2019-10-16 12:56:45 [INFO ] [Browser] - [openApplication] Setting implicitly Wait
+2019-10-16 12:56:45 [INFO ] [Browser] - [openApplication] Setting Page Load Timeout
+2019-10-16 12:56:45 [INFO ] [Verifications] - [<init>] Initializing The Elements of MyAccountSignInPage 
+2019-10-16 12:56:45 [INFO ] [Verifications] - [verifyTitleOfAccountSignInPage] Verifying Title Of AccountSignIn Page
+2019-10-16 12:56:45 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:56:47 [INFO ] [WaitForElement] - [waitUntilElementVisible] Waiting Until Element : [[ChromeDriver: chrome on XP (df19be4150944d0ed6e582e6aeb15ce7)] -> xpath: //input[@data-test-id='form_signin_email']]Visible
+2019-10-16 12:56:47 [INFO ] [WaitForElement] - [webDriverWait] Setting WebDriverWait :10
+2019-10-16 12:56:48 [INFO ] [Verifications] - [enterUserName] Enter User Name : csstester114@gmail.com
+2019-10-16 12:56:49 [INFO ] [Verifications] - [enterPassword] Enter Password : Tester@123
+2019-10-16 12:56:50 [INFO ] [Verifications] - [clickOnSignIn] Click On SignIn Button
+2019-10-16 12:56:52 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:56:52 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:56:52 [INFO ] [AccountLandingPage] - [verifyTitileOfAccountLandingPage] Verifying Titile Of Account Landing Page
+2019-10-16 12:56:52 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:56:53 [INFO ] [ServiceHooks] - [closeApplication] Closing Service Hook
+2019-10-16 12:56:53 [INFO ] [Browser] - [closeApplication] Closed Application
+2019-10-16 12:58:09 [INFO ] [ServiceHooks] - [launchApplication] Launching Service Hook
+2019-10-16 12:58:09 [INFO ] [Browser] - [<init>] Set Driver Executable Path
+2019-10-16 12:58:09 [INFO ] [Browser] - [browserSetUp] Launching Chrome Browser
+2019-10-16 12:58:14 [INFO ] [Browser] - [openApplication] Opening site : https://www.bobbibrowncosmetics.com/account/signin.tmpl
+2019-10-16 12:58:23 [INFO ] [Browser] - [openApplication] Setting implicitly Wait
+2019-10-16 12:58:23 [INFO ] [Browser] - [openApplication] Setting Page Load Timeout
+2019-10-16 12:58:23 [INFO ] [Verifications] - [<init>] Initializing The Elements of MyAccountSignInPage 
+2019-10-16 12:58:23 [INFO ] [Verifications] - [verifyTitleOfAccountSignInPage] Verifying Title Of AccountSignIn Page
+2019-10-16 12:58:23 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:58:25 [INFO ] [WaitForElement] - [waitUntilElementVisible] Waiting Until Element : [[ChromeDriver: chrome on XP (adcf257bbff3f086db7e164054012f4f)] -> xpath: //input[@data-test-id='form_signin_email']]Visible
+2019-10-16 12:58:25 [INFO ] [WaitForElement] - [webDriverWait] Setting WebDriverWait :10
+2019-10-16 12:58:25 [INFO ] [Verifications] - [enterUserName] Enter User Name : csstester114@gmail.com
+2019-10-16 12:58:26 [INFO ] [Verifications] - [enterPassword] Enter Password : Tester@123
+2019-10-16 12:58:27 [INFO ] [Verifications] - [clickOnSignIn] Click On SignIn Button
+2019-10-16 12:58:30 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:58:30 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 12:58:30 [INFO ] [AccountLandingPage] - [verifyTitileOfAccountLandingPage] Verifying Titile Of Account Landing Page
+2019-10-16 12:58:30 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 12:58:30 [INFO ] [ServiceHooks] - [closeApplication] Closing Service Hook
+2019-10-16 12:58:31 [INFO ] [Browser] - [closeApplication] Closed Application
+2019-10-16 12:59:48 [INFO ] [ServiceHooks] - [launchApplication] Launching Service Hook
+2019-10-16 12:59:48 [INFO ] [Browser] - [<init>] Set Driver Executable Path
+2019-10-16 12:59:48 [INFO ] [Browser] - [browserSetUp] Launching Chrome Browser
+2019-10-16 12:59:53 [INFO ] [Browser] - [openApplication] Opening site : https://www.bobbibrowncosmetics.com/account/signin.tmpl
+2019-10-16 13:00:01 [INFO ] [Browser] - [openApplication] Setting implicitly Wait
+2019-10-16 13:00:01 [INFO ] [Browser] - [openApplication] Setting Page Load Timeout
+2019-10-16 13:00:01 [INFO ] [Verifications] - [<init>] Initializing The Elements of MyAccountSignInPage 
+2019-10-16 13:00:01 [INFO ] [Verifications] - [verifyTitleOfAccountSignInPage] Verifying Title Of AccountSignIn Page
+2019-10-16 13:00:01 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 13:00:03 [INFO ] [WaitForElement] - [waitUntilElementVisible] Waiting Until Element : [[ChromeDriver: chrome on XP (c3abd0c87f833f513ff04aae5adc34f3)] -> xpath: //input[@data-test-id='form_signin_email']]Visible
+2019-10-16 13:00:03 [INFO ] [WaitForElement] - [webDriverWait] Setting WebDriverWait :10
+2019-10-16 13:00:03 [INFO ] [Verifications] - [enterUserName] Enter User Name : csstester114@gmail.com
+2019-10-16 13:00:04 [INFO ] [Verifications] - [enterPassword] Enter Password : Tester@123
+2019-10-16 13:00:04 [INFO ] [Verifications] - [clickOnSignIn] Click On SignIn Button
+2019-10-16 13:00:07 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 13:00:07 [INFO ] [AccountLandingPage] - [<init>] Initializing The Elements of MyAccountLandingPage
+2019-10-16 13:00:07 [INFO ] [AccountLandingPage] - [verifyTitileOfAccountLandingPage] Verifying Titile Of Account Landing Page
+2019-10-16 13:00:07 [INFO ] [Verifications] - [verifyTitileOfPage] Getting Titile Of The Page
+2019-10-16 13:00:07 [INFO ] [ServiceHooks] - [closeApplication] Closing Service Hook
+2019-10-16 13:00:10 [INFO ] [Browser] - [closeApplication] Closed Application
